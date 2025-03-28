@@ -1,0 +1,40 @@
+/* COLOR PALLETE:
+ *  #ffffff -> white
+ *  #14244c -> dark blue
+ *  #626c85 -> light blue
+*/
+
+#root {
+    max-width: 1280px;
+    margin: 10rem auto;
+    padding: 2.3rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+main {
+    /* CENTER THE FUCKING BOXES */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #14244c;
+    color: white;
+    width: 300px;
+    height: 8rem;
+    padding: 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.box:hover {
+    background-color: #626c85;
+    transform: translateY(-5px);
+}
