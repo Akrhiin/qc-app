@@ -52,7 +52,7 @@ header:hover {
     cursor: pointer;
 }
 header:hover img {
-    filter: drop-shadow(0 0 1.25rem #626c85);
+    filter: drop-shadow(0 0 1rem #626c85);
 }
 
 footer {
