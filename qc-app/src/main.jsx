@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './main.css'
-import Index from './index/index.jsx'
+import Index from './Index/index.jsx'
 
 let pages = ["Index","Room","Links","Learn"];
 function updatePage(new_page) {

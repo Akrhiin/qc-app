@@ -16,8 +16,9 @@ main {
     /* CENTER THE FUCKING BOXES */
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 2rem;
+    width: 100%;
+    justify-content: center;
 }
 
 .box {
@@ -35,6 +36,7 @@ main {
     cursor: pointer;
 }
 .box:hover {
-    background-color: #626c85;
-    transform: translateY(-5px);
+    /*background-color: #626c85;*/
+    transform: translateY(-0.1rem);
+    filter: drop-shadow(0 0 1rem #626c85);
 }
